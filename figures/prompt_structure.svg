@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1200" height="720" fill="#fcfcfb"/>
+  <text x="40" y="52" font-size="26" font-weight="bold" fill="#0b0b0b">Устройство промпта</text>
+  <text x="40" y="82" font-size="16" fill="#52514e">Один промпт в трёх языковых версиях; слева — блок промпта, справа — техника и зачем она нужна</text>
+
+  <g font-size="16">
+    <rect x="40" y="110" width="520" height="70" rx="8" fill="#EEF4FC" stroke="#2a78d6" stroke-width="2"/>
+    <text x="60" y="140" font-weight="bold" fill="#0b0b0b">Роль</text>
+    <text x="60" y="164" fill="#52514e">«Ты — специалист по лексической семантике (NSM)»</text>
+    <text x="600" y="140" font-weight="bold" fill="#0b0b0b">Role prompting</text>
+    <text x="600" y="164" fill="#52514e">задаёт терминологию и жанр ответа — толкование, а не перевод</text>
+
+    <rect x="40" y="195" width="520" height="70" rx="8" fill="#EEF4FC" stroke="#2a78d6" stroke-width="2"/>
+    <text x="60" y="225" font-weight="bold" fill="#0b0b0b">Задача</text>
+    <text x="60" y="249" fill="#52514e">толкование כמיהה на метаязыке NSM</text>
+    <text x="600" y="225" font-weight="bold" fill="#0b0b0b">Явная формулировка цели</text>
+    <text x="600" y="249" fill="#52514e">одна задача, без вариантов интерпретации</text>
+
+    <rect x="40" y="280" width="520" height="70" rx="8" fill="#EEF4FC" stroke="#2a78d6" stroke-width="2"/>
+    <text x="60" y="310" font-weight="bold" fill="#0b0b0b">Материал: 24 контекста из корпуса</text>
+    <text x="60" y="334" fill="#52514e">4 сферы + смешанные, без меток, на иврите</text>
+    <text x="600" y="310" font-weight="bold" fill="#0b0b0b">Корпусное заземление (few-shot на данных)</text>
+    <text x="600" y="334" fill="#52514e">толкование строится по употреблению, а не по памяти модели</text>
+
+    <rect x="40" y="365" width="520" height="70" rx="8" fill="#EEF4FC" stroke="#2a78d6" stroke-width="2"/>
+    <text x="60" y="395" font-weight="bold" fill="#0b0b0b">Метаязык: 65 примитивов</text>
+    <text x="60" y="419" fill="#52514e">на языке промпта, по семантическим группам</text>
+    <text x="600" y="395" font-weight="bold" fill="#0b0b0b">Ограничение словаря</text>
+    <text x="600" y="419" fill="#52514e">проверяемое требование → критерий К1</text>
+
+    <rect x="40" y="450" width="520" height="70" rx="8" fill="#EEF4FC" stroke="#2a78d6" stroke-width="2"/>
+    <text x="60" y="480" font-weight="bold" fill="#0b0b0b">Правила + шаблон сценария</text>
+    <text x="60" y="504" fill="#52514e">«кто-то чувствует… думает так: „…“… поэтому…»</text>
+    <text x="600" y="480" font-weight="bold" fill="#0b0b0b">Шаблон вместо готового примера</text>
+    <text x="600" y="504" fill="#52514e">форма Вежбицкой без подсказки содержания («тоски»)</text>
+
+    <rect x="40" y="535" width="520" height="70" rx="8" fill="#EEF4FC" stroke="#2a78d6" stroke-width="2"/>
+    <text x="60" y="565" font-weight="bold" fill="#0b0b0b">Шаги: сферы → общее → толкование → проверка</text>
+    <text x="60" y="589" fill="#52514e">самопроверка каждого слова по списку</text>
+    <text x="600" y="565" font-weight="bold" fill="#0b0b0b">Chain-of-thought + self-check</text>
+    <text x="600" y="589" fill="#52514e">сначала увидеть многодоменность, потом обобщить</text>
+
+    <rect x="40" y="620" width="520" height="70" rx="8" fill="#EEF4FC" stroke="#2a78d6" stroke-width="2"/>
+    <text x="60" y="650" font-weight="bold" fill="#0b0b0b">Формат: только JSON</text>
+    <text x="60" y="674" fill="#52514e">{"spheres": [...], "explication": [...]}</text>
+    <text x="600" y="650" font-weight="bold" fill="#0b0b0b">Структурированный вывод</text>
+    <text x="600" y="674" fill="#52514e">автоматический разбор; сферы → критерий К4</text>
+  </g>
+  <line x1="575" y1="110" x2="575" y2="690" stroke="#E6E5E0" stroke-width="2"/>
+</svg>

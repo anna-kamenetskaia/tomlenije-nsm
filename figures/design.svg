@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker>
+  </defs>
+  <rect width="1200" height="760" fill="#fcfcfb"/>
+  <text x="40" y="52" font-size="26" font-weight="bold" fill="#0b0b0b">Дизайн исследования</text>
+  <text x="40" y="82" font-size="16" fill="#52514e">כמיהה в метаязыке NSM: 2 модели × 3 языка промпта × 5 итераций = 30 толкований</text>
+
+  <!-- row 1 -->
+  <g>
+    <rect x="40" y="120" width="250" height="150" rx="10" fill="#EEF4FC" stroke="#2a78d6" stroke-width="2"/>
+    <text x="60" y="152" font-size="18" font-weight="bold" fill="#0b0b0b">1. Корпус</text>
+    <text x="60" y="180" font-size="15" fill="#0b0b0b">20 752 употребления כמיהה</text>
+    <text x="60" y="204" font-size="15" fill="#52514e">авторазметка сфер:</text>
+    <text x="60" y="226" font-size="15" fill="#52514e">рел. 14% · полит. 12%</text>
+    <text x="60" y="248" font-size="15" fill="#52514e">псих. 11% · эрот. 8%</text>
+  </g>
+  <g>
+    <rect x="335" y="120" width="250" height="150" rx="10" fill="#EEF4FC" stroke="#2a78d6" stroke-width="2"/>
+    <text x="355" y="152" font-size="18" font-weight="bold" fill="#0b0b0b">2. Выборка</text>
+    <text x="355" y="180" font-size="15" fill="#0b0b0b">24 контекста:</text>
+    <text x="355" y="204" font-size="15" fill="#52514e">по 5 из 4 сфер + 4 смешанных</text>
+    <text x="355" y="228" font-size="15" fill="#52514e">перемешаны, без меток сфер</text>
+    <text x="355" y="252" font-size="15" fill="#52514e">всегда на иврите</text>
+  </g>
+  <g>
+    <rect x="630" y="120" width="250" height="150" rx="10" fill="#EEF4FC" stroke="#2a78d6" stroke-width="2"/>
+    <text x="650" y="152" font-size="18" font-weight="bold" fill="#0b0b0b">3. Промпт × 3 языка</text>
+    <text x="650" y="180" font-size="15" fill="#0b0b0b">русский · английский · иврит</text>
+    <text x="650" y="204" font-size="15" fill="#52514e">версии — переводы друг друга</text>
+    <text x="650" y="228" font-size="15" fill="#52514e">примитивы — на языке промпта</text>
+    <text x="650" y="252" font-size="15" fill="#52514e">(иврит — по С. Хабибу)</text>
+  </g>
+  <g>
+    <rect x="925" y="120" width="235" height="150" rx="10" fill="#FDEFE8" stroke="#eb6834" stroke-width="2"/>
+    <text x="945" y="152" font-size="18" font-weight="bold" fill="#0b0b0b">4. Модели</text>
+    <text x="945" y="180" font-size="15" fill="#0b0b0b">OpenRouter API, Colab</text>
+    <text x="945" y="204" font-size="15" fill="#52514e">Nemotron 3 Super (США)</text>
+    <text x="945" y="228" font-size="15" fill="#52514e">dots.3 (Китай)</text>
+    <text x="945" y="252" font-size="15" fill="#52514e">t = 0,7 · 5 итераций</text>
+  </g>
+  <line x1="290" y1="195" x2="331" y2="195" stroke="#52514e" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="585" y1="195" x2="626" y2="195" stroke="#52514e" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="880" y1="195" x2="921" y2="195" stroke="#52514e" stroke-width="2" marker-end="url(#a)"/>
+  <path d="M1042,270 L1042,320 L1042,330" stroke="#52514e" stroke-width="2" fill="none" marker-end="url(#a)"/>
+
+  <!-- matrix -->
+  <g>
+    <rect x="40" y="335" width="1120" height="150" rx="10" fill="#ffffff" stroke="#BBBBB5" stroke-width="1.5"/>
+    <text x="60" y="367" font-size="18" font-weight="bold" fill="#0b0b0b">5. Матрица эксперимента: 30 ответов в JSON {spheres, explication}</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="300" y="400" font-weight="bold">русский</text><text x="560" y="400" font-weight="bold">английский</text><text x="830" y="400" font-weight="bold">иврит</text>
+      <text x="60" y="432">Nemotron 3 Super</text>
+      <text x="60" y="464">dots.3</text>
+    </g>
+    <g font-size="15" fill="#52514e">
+      <text x="300" y="432">5 итераций</text><text x="560" y="432">5 итераций</text><text x="830" y="432">5 итераций</text>
+      <text x="300" y="464">5 итераций</text><text x="560" y="464">5 итераций</text><text x="830" y="464">5 итераций (1 отказ)</text>
+    </g>
+  </g>
+  <line x1="600" y1="485" x2="600" y2="526" stroke="#52514e" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- row 3 -->
+  <g>
+    <rect x="40" y="530" width="350" height="190" rx="10" fill="#EAF7F1" stroke="#1baf7a" stroke-width="2"/>
+    <text x="60" y="562" font-size="18" font-weight="bold" fill="#0b0b0b">6. Слепая таблица</text>
+    <text x="60" y="590" font-size="15" fill="#52514e">строки перемешаны,</text>
+    <text x="60" y="614" font-size="15" fill="#52514e">модель скрыта за кодом T01–T30;</text>
+    <text x="60" y="638" font-size="15" fill="#52514e">ключ «код → модель» хранится</text>
+    <text x="60" y="662" font-size="15" fill="#52514e">отдельно до конца оценки</text>
+  </g>
+  <g>
+    <rect x="425" y="530" width="350" height="190" rx="10" fill="#EAF7F1" stroke="#1baf7a" stroke-width="2"/>
+    <text x="445" y="562" font-size="18" font-weight="bold" fill="#0b0b0b">7. Оценка 0–2 × 5 критериев</text>
+    <text x="445" y="590" font-size="15" fill="#0b0b0b">К1 примитивы — алгоритм</text>
+    <text x="445" y="614" font-size="15" fill="#0b0b0b">К2 ядро значения</text>
+    <text x="445" y="638" font-size="15" fill="#0b0b0b">К3 различение (געגועים, תשוקה)</text>
+    <text x="445" y="662" font-size="15" fill="#0b0b0b">К4 охват сфер</text>
+    <text x="445" y="686" font-size="15" fill="#0b0b0b">К5 сценарий и формат</text>
+    <text x="445" y="708" font-size="13" fill="#52514e">К2–К5 — экспертная оценка</text>
+  </g>
+  <g>
+    <rect x="810" y="530" width="350" height="190" rx="10" fill="#EAF7F1" stroke="#1baf7a" stroke-width="2"/>
+    <text x="830" y="562" font-size="18" font-weight="bold" fill="#0b0b0b">8. Анализ</text>
+    <text x="830" y="590" font-size="15" fill="#0b0b0b">итог 0–10 на толкование</text>
+    <text x="830" y="614" font-size="15" fill="#52514e">среднее = качество</text>
+    <text x="830" y="638" font-size="15" fill="#52514e">стандартное отклонение = стабильность</text>
+    <text x="830" y="662" font-size="15" fill="#52514e">по модели × языку, по языку,</text>
+    <text x="830" y="686" font-size="15" fill="#52514e">по модели, по критериям</text>
+  </g>
+  <line x1="390" y1="625" x2="421" y2="625" stroke="#52514e" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="775" y1="625" x2="806" y2="625" stroke="#52514e" stroke-width="2" marker-end="url(#a)"/>
+</svg>

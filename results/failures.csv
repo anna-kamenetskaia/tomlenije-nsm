@@ -1,0 +1,10 @@
+model,lang,status,n
+Dots3,en,ok,5
+Dots3,he,не тот язык / смесь,4
+Dots3,he,отказ,1
+Dots3,ru,ok,3
+Dots3,ru,зацикливание,2
+Nemotron3,en,ok,5
+Nemotron3,he,ok,5
+Nemotron3,ru,ok,4
+Nemotron3,ru,не тот язык / смесь,1

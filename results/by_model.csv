@@ -1,0 +1,3 @@
+model,n,mean,sd,cv,min,median,max,refusals,broken
+Dots3,15.0,5.533,3.021,0.546,0.0,7.0,9.0,1.0,7.0
+Nemotron3,15.0,6.733,1.438,0.214,4.0,7.0,9.0,0.0,1.0

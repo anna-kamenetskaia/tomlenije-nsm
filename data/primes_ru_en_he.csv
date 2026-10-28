@@ -1,0 +1,66 @@
+id,category_en,category_ru,en,ru,he
+1,Substantives,Субстантивы,I,Я,אני
+2,Substantives,Субстантивы,YOU,ТЫ,אתה / את
+3,Substantives,Субстантивы,SOMEONE,КТО-ТО,מישהו
+4,Substantives,Субстантивы,SOMETHING / THING,ЧТО-ТО / ВЕЩЬ,משהו
+5,Substantives,Субстантивы,PEOPLE,ЛЮДИ,אנשים
+6,Substantives,Субстантивы,BODY,ТЕЛО,גוף
+7,Relational substantives,Реляционные субстантивы,KIND,РОД / ВИД,סוג
+8,Relational substantives,Реляционные субстантивы,PART,ЧАСТЬ,חלק
+9,Determiners,Детерминаторы,THIS,ЭТОТ,הזה / הזאת
+10,Determiners,Детерминаторы,THE SAME,ТОТ ЖЕ,אותו הדבר
+11,Determiners,Детерминаторы,OTHER,ДРУГОЙ,אחר
+12,Quantifiers,Кванторы,ONE,ОДИН,אחד
+13,Quantifiers,Кванторы,TWO,ДВА,שניים
+14,Quantifiers,Кванторы,SOME,НЕКОТОРЫЕ,חלק מ־
+15,Quantifiers,Кванторы,ALL,ВСЕ,הכול / כל
+16,Quantifiers,Кванторы,MUCH / MANY,МНОГО,הרבה
+17,Quantifiers,Кванторы,LITTLE / FEW,МАЛО,מעט
+18,Evaluators,Оценки,GOOD,ХОРОШИЙ,טוב
+19,Evaluators,Оценки,BAD,ПЛОХОЙ,רע
+20,Descriptors,Дескрипторы,BIG,БОЛЬШОЙ,גדול
+21,Descriptors,Дескрипторы,SMALL,МАЛЕНЬКИЙ,קטן
+22,Mental predicates,Ментальные предикаты,THINK,ДУМАТЬ,חשב
+23,Mental predicates,Ментальные предикаты,KNOW,ЗНАТЬ,ידע
+24,Mental predicates,Ментальные предикаты,WANT,ХОТЕТЬ,רצה
+25,Mental predicates,Ментальные предикаты,DON'T WANT,НЕ ХОТЕТЬ,לא רצה
+26,Mental predicates,Ментальные предикаты,FEEL,ЧУВСТВОВАТЬ,הרגיש
+27,Mental predicates,Ментальные предикаты,SEE,ВИДЕТЬ,ראה
+28,Mental predicates,Ментальные предикаты,HEAR,СЛЫШАТЬ,שמע
+29,Speech,Речь,SAY,СКАЗАТЬ,אמר
+30,Speech,Речь,WORDS,СЛОВА,מילים
+31,Speech,Речь,TRUE,ПРАВДА,נכון
+32,"Actions, events, movement","Действия, события, движение",DO,ДЕЛАТЬ,עשה
+33,"Actions, events, movement","Действия, события, движение",HAPPEN,ПРОИСХОДИТЬ,קרה
+34,"Actions, events, movement","Действия, события, движение",MOVE,ДВИГАТЬСЯ,זז / נע
+35,"Existence, location, possession, specification","Существование, местонахождение, обладание, спецификация",BE (SOMEWHERE),БЫТЬ (где-то),נמצא (במקום כלשהו)
+36,"Existence, location, possession, specification","Существование, местонахождение, обладание, спецификация",THERE IS,ЕСТЬ,יש
+37,"Existence, location, possession, specification","Существование, местонахождение, обладание, спецификация",BE (SOMEONE / SOMETHING),БЫТЬ (кем-то / чем-то),הוא (להיות)
+38,"Existence, location, possession, specification","Существование, местонахождение, обладание, спецификация",(IS) MINE,(у кого-то) ЕСТЬ,שלי
+39,Life and death,Жизнь и смерть,LIVE,ЖИТЬ,חי
+40,Life and death,Жизнь и смерть,DIE,УМЕРЕТЬ,מת
+41,Time,Время,WHEN / TIME,КОГДА / ВРЕМЯ,מתי / זמן
+42,Time,Время,NOW,СЕЙЧАС,עכשיו
+43,Time,Время,BEFORE,ДО,לפני
+44,Time,Время,AFTER,ПОСЛЕ,אחרי
+45,Time,Время,A LONG TIME,ДОЛГО,הרבה זמן
+46,Time,Время,A SHORT TIME,НЕДОЛГО,זמן קצר
+47,Time,Время,FOR SOME TIME,НЕКОТОРОЕ ВРЕМЯ,למשך זמן מה
+48,Time,Время,MOMENT,МОМЕНТ,רגע
+49,Space,Пространство,WHERE / PLACE,ГДЕ / МЕСТО,איפה / מקום
+50,Space,Пространство,HERE,ЗДЕСЬ,פה / כאן
+51,Space,Пространство,ABOVE,НАД,מעל
+52,Space,Пространство,BELOW,ПОД,מתחת
+53,Space,Пространство,FAR,ДАЛЕКО,רחוק
+54,Space,Пространство,NEAR,БЛИЗКО,קרוב
+55,Space,Пространство,SIDE,СТОРОНА,צד
+56,Space,Пространство,INSIDE,ВНУТРИ,בתוך
+57,Space,Пространство,TOUCH,КАСАТЬСЯ,נגע
+58,Logical concepts,Логические понятия,NOT,НЕ,לא
+59,Logical concepts,Логические понятия,MAYBE,МОЖЕТ БЫТЬ,אולי
+60,Logical concepts,Логические понятия,CAN,МОЧЬ,יכול
+61,Logical concepts,Логические понятия,BECAUSE,ПОТОМУ ЧТО,בגלל
+62,Logical concepts,Логические понятия,IF,ЕСЛИ,אם
+63,"Intensifier, augmentor","Интенсификатор, аугментатор",VERY,ОЧЕНЬ,מאוד
+64,"Intensifier, augmentor","Интенсификатор, аугментатор",MORE,БОЛЬШЕ,יותר
+65,Similarity,Сходство,LIKE / AS / WAY,КАК / ТАК,כמו

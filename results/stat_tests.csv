@@ -1,0 +1,9 @@
+test,statistic,p_value,n
+Kruskal–Wallis: итог по языкам (обе модели),13.8439,0.001,30
+"Kruskal–Wallis: итог по языкам, Dots3",10.161,0.0062,15
+"Kruskal–Wallis: итог по языкам, Nemotron3",4.4121,0.1101,15
+Mann–Whitney: Nemotron3 vs Dots3 (все языки),130.0,0.4721,30
+"Mann–Whitney: Nemotron3 vs Dots3, ru",10.0,0.6644,10
+"Mann–Whitney: Nemotron3 vs Dots3, en",12.5,1.0,10
+"Mann–Whitney: Nemotron3 vs Dots3, he",25.0,0.0114,10
+Spearman: длина толкования (слова) vs итог,0.7108,0.0,30

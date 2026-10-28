@@ -1,0 +1,151 @@
+code,model,lang,iter,status,criterion,score,rater,note
+T29,Dots3,en,1,ok,K1,2,algorithm+manual,все слова из списка
+T30,Dots3,en,2,ok,K1,2,algorithm+manual,все слова из списка
+T19,Dots3,en,3,ok,K1,1,algorithm+manual,"вне списка: but, thought (2)"
+T12,Dots3,en,4,ok,K1,0,algorithm+manual,"вне списка: 'I, BUT, FEELING, LAST (4); грамматика: «I NOT KNOW»"
+T06,Dots3,en,5,ok,K1,1,algorithm+manual,вне списка: BUT (1)
+T02,Dots3,he,1,не тот язык / смесь,K1,0,algorithm+manual,"смесь иврита, английского и китайского"
+T22,Dots3,he,2,отказ,K1,0,algorithm+manual,отказ
+T24,Dots3,he,3,не тот язык / смесь,K1,0,algorithm+manual,"смесь иврита, английского и китайского"
+T15,Dots3,he,4,не тот язык / смесь,K1,0,algorithm+manual,латинская транслитерация вместо иврита
+T04,Dots3,he,5,не тот язык / смесь,K1,0,algorithm+manual,"толкование на английском, а не на иврите"
+T23,Dots3,ru,1,ok,K1,2,algorithm+manual,все слова из списка
+T07,Dots3,ru,2,зацикливание,K1,0,algorithm+manual,"вне списка: без, важно, вернуться, движет, длилось, достигнуто, желаний, жизни, избежать, изменить, к, напряжение … (25)"
+T03,Dots3,ru,3,ok,K1,1,algorithm+manual,вне списка: или (1)
+T01,Dots3,ru,4,зацикливание,K1,0,algorithm+manual,"вне списка: sure, без, важно, внимания, возможно, вопрос, всегда, где-то, главная, главный, даже, жизни … (46)"
+T11,Dots3,ru,5,ok,K1,1,algorithm+manual,"вне списка: будто, но (2)"
+T26,Nemotron3,en,1,ok,K1,1,algorithm+manual,грамматика: «NOT THIS BE MINE»
+T05,Nemotron3,en,2,ok,K1,1,algorithm+manual,"вне списка: 'I, 'this (2); грамматика: «this one feels thing good» — сломанный синтаксис"
+T09,Nemotron3,en,3,ok,K1,2,algorithm+manual,все слова из списка
+T17,Nemotron3,en,4,ok,K1,1,algorithm+manual,грамматика: «this something BE not mine»
+T20,Nemotron3,en,5,ok,K1,1,algorithm+manual,грамматика: «NOT THIS BE MINE NOW»
+T25,Nemotron3,he,1,ok,K1,1,algorithm+manual,"грамматика: «אני רצה», «לא יש»"
+T10,Nemotron3,he,2,ok,K1,1,algorithm+manual,грамматика: «אני רצה»
+T14,Nemotron3,he,3,ok,K1,1,algorithm+manual,грамматика: «אני רצה»
+T27,Nemotron3,he,4,ok,K1,1,algorithm+manual,грамматика: «אני רצה»
+T13,Nemotron3,he,5,ok,K1,1,algorithm+manual,"грамматика: «אני רצה», «לא יש»"
+T08,Nemotron3,ru,1,ok,K1,2,algorithm+manual,все слова из списка
+T18,Nemotron3,ru,2,ok,K1,1,algorithm+manual,грамматика: «у кого-то не есть»
+T28,Nemotron3,ru,3,не тот язык / смесь,K1,0,algorithm+manual,"толкование на английском, а не на русском"
+T21,Nemotron3,ru,4,ok,K1,1,algorithm+manual,"грамматика: «у этого кто-то не есть», «люди очень хотеть»"
+T16,Nemotron3,ru,5,ok,K1,1,algorithm+manual,грамматика: «Не у меня есть это»
+T29,Dots3,en,1,ok,K2,1,expert,
+T30,Dots3,en,2,ok,K2,1,expert,
+T19,Dots3,en,3,ok,K2,2,expert,
+T12,Dots3,en,4,ok,K2,2,expert,
+T06,Dots3,en,5,ok,K2,1,expert,
+T02,Dots3,he,1,не тот язык / смесь,K2,0,expert,
+T22,Dots3,he,2,отказ,K2,0,expert,
+T24,Dots3,he,3,не тот язык / смесь,K2,0,expert,
+T15,Dots3,he,4,не тот язык / смесь,K2,1,expert,
+T04,Dots3,he,5,не тот язык / смесь,K2,1,expert,
+T23,Dots3,ru,1,ok,K2,1,expert,
+T07,Dots3,ru,2,зацикливание,K2,2,expert,
+T03,Dots3,ru,3,ok,K2,2,expert,
+T01,Dots3,ru,4,зацикливание,K2,1,expert,
+T11,Dots3,ru,5,ok,K2,1,expert,
+T26,Nemotron3,en,1,ok,K2,1,expert,
+T05,Nemotron3,en,2,ok,K2,2,expert,
+T09,Nemotron3,en,3,ok,K2,1,expert,
+T17,Nemotron3,en,4,ok,K2,2,expert,
+T20,Nemotron3,en,5,ok,K2,1,expert,
+T25,Nemotron3,he,1,ok,K2,1,expert,
+T10,Nemotron3,he,2,ok,K2,0,expert,
+T14,Nemotron3,he,3,ok,K2,2,expert,
+T27,Nemotron3,he,4,ok,K2,1,expert,
+T13,Nemotron3,he,5,ok,K2,0,expert,
+T08,Nemotron3,ru,1,ok,K2,1,expert,
+T18,Nemotron3,ru,2,ok,K2,1,expert,
+T28,Nemotron3,ru,3,не тот язык / смесь,K2,1,expert,
+T21,Nemotron3,ru,4,ok,K2,2,expert,
+T16,Nemotron3,ru,5,ok,K2,1,expert,
+T29,Dots3,en,1,ok,K3,1,expert,
+T30,Dots3,en,2,ok,K3,1,expert,
+T19,Dots3,en,3,ok,K3,2,expert,
+T12,Dots3,en,4,ok,K3,1,expert,
+T06,Dots3,en,5,ok,K3,1,expert,
+T02,Dots3,he,1,не тот язык / смесь,K3,0,expert,
+T22,Dots3,he,2,отказ,K3,0,expert,
+T24,Dots3,he,3,не тот язык / смесь,K3,0,expert,
+T15,Dots3,he,4,не тот язык / смесь,K3,0,expert,
+T04,Dots3,he,5,не тот язык / смесь,K3,0,expert,
+T23,Dots3,ru,1,ok,K3,0,expert,
+T07,Dots3,ru,2,зацикливание,K3,2,expert,
+T03,Dots3,ru,3,ok,K3,1,expert,
+T01,Dots3,ru,4,зацикливание,K3,2,expert,
+T11,Dots3,ru,5,ok,K3,1,expert,
+T26,Nemotron3,en,1,ok,K3,2,expert,
+T05,Nemotron3,en,2,ok,K3,2,expert,
+T09,Nemotron3,en,3,ok,K3,0,expert,
+T17,Nemotron3,en,4,ok,K3,1,expert,
+T20,Nemotron3,en,5,ok,K3,1,expert,
+T25,Nemotron3,he,1,ok,K3,0,expert,
+T10,Nemotron3,he,2,ok,K3,0,expert,
+T14,Nemotron3,he,3,ok,K3,1,expert,
+T27,Nemotron3,he,4,ok,K3,0,expert,
+T13,Nemotron3,he,5,ok,K3,0,expert,
+T08,Nemotron3,ru,1,ok,K3,1,expert,
+T18,Nemotron3,ru,2,ok,K3,0,expert,
+T28,Nemotron3,ru,3,не тот язык / смесь,K3,0,expert,
+T21,Nemotron3,ru,4,ok,K3,2,expert,
+T16,Nemotron3,ru,5,ok,K3,0,expert,
+T29,Dots3,en,1,ok,K4,2,expert,
+T30,Dots3,en,2,ok,K4,2,expert,
+T19,Dots3,en,3,ok,K4,2,expert,
+T12,Dots3,en,4,ok,K4,2,expert,
+T06,Dots3,en,5,ok,K4,2,expert,
+T02,Dots3,he,1,не тот язык / смесь,K4,0,expert,
+T22,Dots3,he,2,отказ,K4,0,expert,
+T24,Dots3,he,3,не тот язык / смесь,K4,1,expert,
+T15,Dots3,he,4,не тот язык / смесь,K4,1,expert,
+T04,Dots3,he,5,не тот язык / смесь,K4,1,expert,
+T23,Dots3,ru,1,ok,K4,1,expert,
+T07,Dots3,ru,2,зацикливание,K4,2,expert,
+T03,Dots3,ru,3,ok,K4,2,expert,
+T01,Dots3,ru,4,зацикливание,K4,2,expert,
+T11,Dots3,ru,5,ok,K4,2,expert,
+T26,Nemotron3,en,1,ok,K4,2,expert,
+T05,Nemotron3,en,2,ok,K4,2,expert,
+T09,Nemotron3,en,3,ok,K4,2,expert,
+T17,Nemotron3,en,4,ok,K4,2,expert,
+T20,Nemotron3,en,5,ok,K4,2,expert,
+T25,Nemotron3,he,1,ok,K4,2,expert,
+T10,Nemotron3,he,2,ok,K4,2,expert,
+T14,Nemotron3,he,3,ok,K4,2,expert,
+T27,Nemotron3,he,4,ok,K4,2,expert,
+T13,Nemotron3,he,5,ok,K4,2,expert,
+T08,Nemotron3,ru,1,ok,K4,2,expert,
+T18,Nemotron3,ru,2,ok,K4,2,expert,
+T28,Nemotron3,ru,3,не тот язык / смесь,K4,2,expert,
+T21,Nemotron3,ru,4,ok,K4,2,expert,
+T16,Nemotron3,ru,5,ok,K4,2,expert,
+T29,Dots3,en,1,ok,K5,2,expert,
+T30,Dots3,en,2,ok,K5,2,expert,
+T19,Dots3,en,3,ok,K5,2,expert,
+T12,Dots3,en,4,ok,K5,2,expert,
+T06,Dots3,en,5,ok,K5,2,expert,
+T02,Dots3,he,1,не тот язык / смесь,K5,0,expert,
+T22,Dots3,he,2,отказ,K5,0,expert,
+T24,Dots3,he,3,не тот язык / смесь,K5,1,expert,
+T15,Dots3,he,4,не тот язык / смесь,K5,1,expert,
+T04,Dots3,he,5,не тот язык / смесь,K5,2,expert,
+T23,Dots3,ru,1,ok,K5,1,expert,
+T07,Dots3,ru,2,зацикливание,K5,2,expert,
+T03,Dots3,ru,3,ok,K5,2,expert,
+T01,Dots3,ru,4,зацикливание,K5,2,expert,
+T11,Dots3,ru,5,ok,K5,2,expert,
+T26,Nemotron3,en,1,ok,K5,2,expert,
+T05,Nemotron3,en,2,ok,K5,2,expert,
+T09,Nemotron3,en,3,ok,K5,2,expert,
+T17,Nemotron3,en,4,ok,K5,2,expert,
+T20,Nemotron3,en,5,ok,K5,2,expert,
+T25,Nemotron3,he,1,ok,K5,2,expert,
+T10,Nemotron3,he,2,ok,K5,2,expert,
+T14,Nemotron3,he,3,ok,K5,2,expert,
+T27,Nemotron3,he,4,ok,K5,2,expert,
+T13,Nemotron3,he,5,ok,K5,2,expert,
+T08,Nemotron3,ru,1,ok,K5,2,expert,
+T18,Nemotron3,ru,2,ok,K5,2,expert,
+T28,Nemotron3,ru,3,не тот язык / смесь,K5,1,expert,
+T21,Nemotron3,ru,4,ok,K5,1,expert,
+T16,Nemotron3,ru,5,ok,K5,2,expert,

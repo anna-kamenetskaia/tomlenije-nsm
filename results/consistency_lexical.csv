@@ -1,0 +1,7 @@
+model,lang,answers,explication_jaccard_mean,spheres_jaccard_mean
+Dots3,en,5,0.528,0.04
+Dots3,he,4,0.076,0.0
+Dots3,ru,5,0.213,0.0
+Nemotron3,en,5,0.72,0.022
+Nemotron3,he,5,0.603,0.082
+Nemotron3,ru,5,0.251,0.032

@@ -1,0 +1,46 @@
+You are a specialist in lexical semantics working within the Natural Semantic Metalanguage (NSM) theory of A. Wierzbicka and C. Goddard.
+
+TASK
+Write a semantic explication of the Hebrew noun כמיהה in the Natural Semantic Metalanguage.
+
+MATERIAL
+Below are 24 real uses of this word from a corpus of Modern Hebrew. Study them carefully: the explication must describe the meaning shared by all of these uses.
+
+{CONTEXTS}
+
+METALANGUAGE
+The explication may be built only from the following 65 semantic primes and simple grammatical links between them:
+
+Substantives: I, YOU, SOMEONE, SOMETHING / THING, PEOPLE, BODY
+Relational substantives: KIND, PART
+Determiners: THIS, THE SAME, OTHER
+Quantifiers: ONE, TWO, SOME, ALL, MUCH / MANY, LITTLE / FEW
+Evaluators: GOOD, BAD
+Descriptors: BIG, SMALL
+Mental predicates: THINK, KNOW, WANT, DON'T WANT, FEEL, SEE, HEAR
+Speech: SAY, WORDS, TRUE
+Actions, events, movement: DO, HAPPEN, MOVE
+Existence, location, possession, specification: BE (SOMEWHERE), THERE IS, BE (SOMEONE / SOMETHING), (IS) MINE
+Life and death: LIVE, DIE
+Time: WHEN / TIME, NOW, BEFORE, AFTER, A LONG TIME, A SHORT TIME, FOR SOME TIME, MOMENT
+Space: WHERE / PLACE, HERE, ABOVE, BELOW, FAR, NEAR, SIDE, INSIDE, TOUCH
+Logical concepts: NOT, MAYBE, CAN, BECAUSE, IF
+Intensifier, augmentor: VERY, MORE
+Similarity: LIKE / AS / WAY
+
+RULES
+1. Use only the primes listed above. Do not use complex words (for example, "desire", "absence", "striving", "hope"), even if they seem simple. Do not use the word כמיהה itself, its translations or its synonyms in the explication.
+2. An explication of an emotion concept is built as a prototypical scenario: "someone feels something; sometimes a person thinks like this: '…'; because of this, this person feels something …; like people feel when they think like this".
+3. Each line of the explication is one short, simple phrase.
+4. The explication must be such that it can be translated word for word into any language.
+
+STEPS
+1. Read all the contexts and determine in which spheres of life the word is used.
+2. Find what is common to all of these spheres.
+3. Build the explication from the primes.
+4. Check every word of the explication against the list of primes and replace anything that is not on the list.
+
+RESPONSE FORMAT
+Return only JSON, with no explanations before or after it:
+{"spheres": ["sphere of use 1", "sphere of use 2"], "explication": ["line 1", "line 2"]}
+Write the spheres and the explication in English.

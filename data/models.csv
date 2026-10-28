@@ -1,0 +1,6 @@
+name,openrouter_id,developer,country,status,note
+Nemotron3,nvidia/nemotron-3-super-120b-a12b:free,NVIDIA,США,использована,
+Dots3,dots-studio/dots-3-note-preview:free,Xiaohongshu (dots.llm),Китай,использована,
+Gemma4,google/gemma-4-31b-it:free,Google,США,отсеяна,429: бесплатный пул Google перегружен
+Inkling,thinkingmachines/inkling:free,Thinking Machines,США,отсеяна,403: доступна только в агентных приложениях
+Xing4,xingchen-agi/xing4.0-29b-a4b:free,xingchen-agi,,отсеяна,"~10 мин на ответ, искажение кириллицы в рассуждениях"

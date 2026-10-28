@@ -1,0 +1,776 @@
+[
+ {
+  "model": "Nemotron3",
+  "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
+  "lang": "ru",
+  "iter": 1,
+  "temperature": 0.7,
+  "raw": "{\"spheres\": [\"личное эмоциональное переживание\", \"национальная или коллективная тоска\", \"духовное или религиозное стремление\", \"межличностная близость\", \"экзистенциальная потребность\"], \"explication\": [\"кто-то чувствует что-то\", \"кто-то хочет что-то\", \"у кого-то нет чего-то\", \"кто-то думает что-то некоторое время\", \"потому что кто-то хочет что-то, кто-то чувствует что-то\", \"это как когда кто-то чувствует что-то потому что хочет чего-то, у кого-то нет чего-то\"]}",
+  "parsed": {
+   "spheres": [
+    "личное эмоциональное переживание",
+    "национальная или коллективная тоска",
+    "духовное или религиозное стремление",
+    "межличностная близость",
+    "экзистенциальная потребность"
+   ],
+   "explication": [
+    "кто-то чувствует что-то",
+    "кто-то хочет что-то",
+    "у кого-то нет чего-то",
+    "кто-то думает что-то некоторое время",
+    "потому что кто-то хочет что-то, кто-то чувствует что-то",
+    "это как когда кто-то чувствует что-то потому что хочет чего-то, у кого-то нет чего-то"
+   ]
+  }
+ },
+ {
+  "model": "Nemotron3",
+  "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
+  "lang": "en",
+  "iter": 1,
+  "temperature": 0.7,
+  "raw": "{\n  \"spheres\": [\n    \"interpersonal relationships\",\n    \"spirituality/religion\",\n    \"nationhood/ethnicity\",\n    \"personal well-being\",\n    \"union/bonding\",\n    \"ideal/unattainable\"\n  ],\n  \"explication\": [\n    \"SOMEONE FEEL SOMETHING\",\n    \"MAYBE SOMEONE THINK LIKE THIS: I WANT THIS, NOT THIS BE MINE\",\n    \"BECAUSE THIS, SOMEONE FEEL SOMETHING GOOD WHEN SOMEONE THINK LIKE THIS: THIS BE MINE\",\n    \"BECAUSE THIS, SOMEONE FEEL SOMETHING BAD WHEN SOMEONE THINK LIKE THIS: NOT THIS BE MINE\",\n    \"LIKE PEOPLE FEEL WHEN PEOPLE THINK LIKE THIS\"\n  ]\n}",
+  "parsed": {
+   "spheres": [
+    "interpersonal relationships",
+    "spirituality/religion",
+    "nationhood/ethnicity",
+    "personal well-being",
+    "union/bonding",
+    "ideal/unattainable"
+   ],
+   "explication": [
+    "SOMEONE FEEL SOMETHING",
+    "MAYBE SOMEONE THINK LIKE THIS: I WANT THIS, NOT THIS BE MINE",
+    "BECAUSE THIS, SOMEONE FEEL SOMETHING GOOD WHEN SOMEONE THINK LIKE THIS: THIS BE MINE",
+    "BECAUSE THIS, SOMEONE FEEL SOMETHING BAD WHEN SOMEONE THINK LIKE THIS: NOT THIS BE MINE",
+    "LIKE PEOPLE FEEL WHEN PEOPLE THINK LIKE THIS"
+   ]
+  }
+ },
+ {
+  "model": "Nemotron3",
+  "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
+  "lang": "he",
+  "iter": 1,
+  "temperature": 0.7,
+  "raw": "{\"spheres\": [\"יחסים בין-אישיים\", \"לאום ומולדת\", \"דת ורוחניות\", \"משפחה\", \"טיפול נפשי\", \"ספרות ושירה\"], \"explication\": [\"מישהו מרגיש משהו.\", \"אולי מישהו חושב: 'אני רצה משהו טוב. לא יש משהו טוב שלי.'\", \"בגלל זה מישהו מרגיש משהו רע.\", \"כמו אנשים מרגיש אם מישהו חושב: 'אני רצה משהו טוב. לא יש משהו טוב שלי.'\"]}",
+  "parsed": {
+   "spheres": [
+    "יחסים בין-אישיים",
+    "לאום ומולדת",
+    "דת ורוחניות",
+    "משפחה",
+    "טיפול נפשי",
+    "ספרות ושירה"
+   ],
+   "explication": [
+    "מישהו מרגיש משהו.",
+    "אולי מישהו חושב: 'אני רצה משהו טוב. לא יש משהו טוב שלי.'",
+    "בגלל זה מישהו מרגיש משהו רע.",
+    "כמו אנשים מרגיש אם מישהו חושב: 'אני רצה משהו טוב. לא יש משהו טוב שלי.'"
+   ]
+  }
+ },
+ {
+  "model": "Dots3",
+  "model_id": "dots-studio/dots-3-note-preview:free",
+  "lang": "ru",
+  "iter": 1,
+  "temperature": 0.7,
+  "raw": "\n\n{\"spheres\": [\"личные отношения\", \"социальные чувства\", \"духовные стремления\", \"психологические состояния\"], \"explication\": [\"Кто-то очень хочет чего-то.\", \"Кто-то думает о том, что он хочет.\", \"Потому что он думает так, он чувствует что-то.\", \"Так, как чувствуют люди, когда очень хотят чего-то.\"]}",
+  "parsed": {
+   "spheres": [
+    "личные отношения",
+    "социальные чувства",
+    "духовные стремления",
+    "психологические состояния"
+   ],
+   "explication": [
+    "Кто-то очень хочет чего-то.",
+    "Кто-то думает о том, что он хочет.",
+    "Потому что он думает так, он чувствует что-то.",
+    "Так, как чувствуют люди, когда очень хотят чего-то."
+   ]
+  }
+ },
+ {
+  "model": "Dots3",
+  "model_id": "dots-studio/dots-3-note-preview:free",
+  "lang": "en",
+  "iter": 1,
+  "temperature": 0.7,
+  "raw": "\n\n{\"spheres\": [\"emotional\", \"national\", \"spiritual\", \"existential\"], \"explication\": [\"someone feels something\", \"sometimes a person thinks like this: \\\"I want something to be here now. This something is not here. I think about this for a long time.\\\"\", \"because of this, this person feels something\", \"like people feel when they think like this\"]}",
+  "parsed": {
+   "spheres": [
+    "emotional",
+    "national",
+    "spiritual",
+    "existential"
+   ],
+   "explication": [
+    "someone feels something",
+    "sometimes a person thinks like this: \"I want something to be here now. This something is not here. I think about this for a long time.\"",
+    "because of this, this person feels something",
+    "like people feel when they think like this"
+   ]
+  }
+ },
+ {
+  "model": "Dots3",
+  "model_id": "dots-studio/dots-3-note-preview:free",
+  "lang": "he",
+  "iter": 1,
+  "temperature": 0.7,
+  "raw": "\n\n{\"spheres\": [\" unstoppable\", \"בריאות נ psyche\", \"דinite\", \"לאומית\"], \"explication\": [\"maximum Merge something רע.\", \"maximum Chew: 'אני Blend >+G, ו>+G not now'\", \"组成 this, maximum Merge something רע.\", \"就像 maximum Merge when they Chew like this.\"]}",
+  "parsed": {
+   "spheres": [
+    " unstoppable",
+    "בריאות נ psyche",
+    "דinite",
+    "לאומית"
+   ],
+   "explication": [
+    "maximum Merge something רע.",
+    "maximum Chew: 'אני Blend >+G, ו>+G not now'",
+    "组成 this, maximum Merge something רע.",
+    "就像 maximum Merge when they Chew like this."
+   ]
+  }
+ },
+ {
+  "model": "Nemotron3",
+  "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
+  "lang": "ru",
+  "iter": 2,
+  "temperature": 0.7,
+  "raw": "{\"spheres\": [\"межличностные отношения\", \"национальная/этническая принадлежность\", \"духовно-религиозные стремления\", \"желание иметь ребёнка\"], \"explication\": [\"Кто-то чувствует что-то, потому что кто-то хочет что-то.\", \"Кто-то думает так: у кого-то есть что-то, кто-то хочет что-то, кто-то чувствует что-то хорошее.\", \"Кто-то думает так: у кого-то не есть что-то, кто-то хочет что-то, кто-то чувствует что-то плохое.\"]}",
+  "parsed": {
+   "spheres": [
+    "межличностные отношения",
+    "национальная/этническая принадлежность",
+    "духовно-религиозные стремления",
+    "желание иметь ребёнка"
+   ],
+   "explication": [
+    "Кто-то чувствует что-то, потому что кто-то хочет что-то.",
+    "Кто-то думает так: у кого-то есть что-то, кто-то хочет что-то, кто-то чувствует что-то хорошее.",
+    "Кто-то думает так: у кого-то не есть что-то, кто-то хочет что-то, кто-то чувствует что-то плохое."
+   ]
+  }
+ },
+ {
+  "model": "Nemotron3",
+  "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
+  "lang": "en",
+  "iter": 2,
+  "temperature": 0.7,
+  "raw": "{\"spheres\": [\"personal inner life\", \"family\", \"romantic love\", \"religious/spiritual\", \"nation/ethnic identity\", \"therapy/health\"], \"explication\": [\"someone feels something\", \"someone thinks like this: 'I want this thing, this thing is not mine now'\", \"because of this this one feels thing good when this one thinks 'this thing is mine'\", \"because of this this one feels thing bad when this one thinks 'this thing is not mine'\", \"people feel thing good when people think like this\", \"people feel thing bad when people think like this\"]}",
+  "parsed": {
+   "spheres": [
+    "personal inner life",
+    "family",
+    "romantic love",
+    "religious/spiritual",
+    "nation/ethnic identity",
+    "therapy/health"
+   ],
+   "explication": [
+    "someone feels something",
+    "someone thinks like this: 'I want this thing, this thing is not mine now'",
+    "because of this this one feels thing good when this one thinks 'this thing is mine'",
+    "because of this this one feels thing bad when this one thinks 'this thing is not mine'",
+    "people feel thing good when people think like this",
+    "people feel thing bad when people think like this"
+   ]
+  }
+ },
+ {
+  "model": "Nemotron3",
+  "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
+  "lang": "he",
+  "iter": 2,
+  "temperature": 0.7,
+  "raw": "{\"spheres\": [\"יחסים אישיים\", \"לאום ומסורת\", \"רוחניות ואמונה\", \"הרגשת שלמות\"], \"explication\": [\"מישהו מרגיש משהו טוב.\", \"מישהו רצה משהו.\", \"משהו לא נמצא כאן עכשיו.\", \"בגלל זה מישהו מרגיש משהו טוב מאוד.\", \"מישהו יכול לחשוב: \\\"אני רצה משהו. אני חושב משהו הרבה זמן\\\".\", \"כמו אנשים מרגישים אם מישהו חושב משהו.\"]}",
+  "parsed": {
+   "spheres": [
+    "יחסים אישיים",
+    "לאום ומסורת",
+    "רוחניות ואמונה",
+    "הרגשת שלמות"
+   ],
+   "explication": [
+    "מישהו מרגיש משהו טוב.",
+    "מישהו רצה משהו.",
+    "משהו לא נמצא כאן עכשיו.",
+    "בגלל זה מישהו מרגיש משהו טוב מאוד.",
+    "מישהו יכול לחשוב: \"אני רצה משהו. אני חושב משהו הרבה זמן\".",
+    "כמו אנשים מרגישים אם מישהו חושב משהו."
+   ]
+  }
+ },
+ {
+  "model": "Dots3",
+  "model_id": "dots-studio/dots-3-note-preview:free",
+  "lang": "ru",
+  "iter": 2,
+  "temperature": 0.7,
+  "raw": "\n\n{\"spheres\": [\"эмоциональные потребности и внутренние побуждения\", \"социальные и национальные стремления\", \"духовные и религиозные порывы\", \"физиологические и биологические импульсы\", \"межличностные отношения и привязанности\"], \"explication\": [\"кто-то хочет чего-то\", \"кто-то чувствует, что ему нужно что-то\", \"кто-то думает о чем-то очень часто\", \"кто-то хочет чего-то, что находится далеко\", \"кто-то хочет чего-то, чего нет сейчас\", \"кто-то хочет чего-то, что трудно получить\", \"кто-то чувствует напряжение из-за этого\", \"кто-то думает об этом постоянно\", \"кто-то чувствует, что это важно для него\", \"кто-то хочет изменить своё состояние\", \"кто-то хочет соединиться с чем-то\", \"кто-то хочет вернуться к чему-то\", \"кто-то хочет получить что-то\", \"кто-то хочет избежать чего-то\", \"кто-то чувствует, что это часть его\", \"кто-то думает, что без этого он не может быть собой\", \"кто-то хочет, чтобы это стало реальностью\", \"кто-то чувствует, что это движет им\", \"кто-то хочет, чтобы это длилось\", \"кто-то чувствует, что это сильнее других желаний\", \"кто-то хочет, чтобы это было достигнуто\", \"кто-то чувствует, что это его природа\", \"кто-то хочет, чтобы это было частью его жизни\", \"кто-то чувствует, что это его судьба\"]}",
+  "parsed": {
+   "spheres": [
+    "эмоциональные потребности и внутренние побуждения",
+    "социальные и национальные стремления",
+    "духовные и религиозные порывы",
+    "физиологические и биологические импульсы",
+    "межличностные отношения и привязанности"
+   ],
+   "explication": [
+    "кто-то хочет чего-то",
+    "кто-то чувствует, что ему нужно что-то",
+    "кто-то думает о чем-то очень часто",
+    "кто-то хочет чего-то, что находится далеко",
+    "кто-то хочет чего-то, чего нет сейчас",
+    "кто-то хочет чего-то, что трудно получить",
+    "кто-то чувствует напряжение из-за этого",
+    "кто-то думает об этом постоянно",
+    "кто-то чувствует, что это важно для него",
+    "кто-то хочет изменить своё состояние",
+    "кто-то хочет соединиться с чем-то",
+    "кто-то хочет вернуться к чему-то",
+    "кто-то хочет получить что-то",
+    "кто-то хочет избежать чего-то",
+    "кто-то чувствует, что это часть его",
+    "кто-то думает, что без этого он не может быть собой",
+    "кто-то хочет, чтобы это стало реальностью",
+    "кто-то чувствует, что это движет им",
+    "кто-то хочет, чтобы это длилось",
+    "кто-то чувствует, что это сильнее других желаний",
+    "кто-то хочет, чтобы это было достигнуто",
+    "кто-то чувствует, что это его природа",
+    "кто-то хочет, чтобы это было частью его жизни",
+    "кто-то чувствует, что это его судьба"
+   ]
+  }
+ },
+ {
+  "model": "Dots3",
+  "model_id": "dots-studio/dots-3-note-preview:free",
+  "lang": "en",
+  "iter": 2,
+  "temperature": 0.7,
+  "raw": "\n\n{\n  \"spheres\": [\"personal relationships\", \"national identity\", \"religious belief\"],\n  \"explication\": [\n    \"SOMEONE FEELS SOMETHING\",\n    \"THIS IS BECAUSE THIS SOMEONE WANTS SOMETHING\",\n    \"THIS SOMEONE THINKS THAT THIS SOMETHING IS NOT NOW\",\n    \"THIS SOMEONE THINKS THAT THIS SOMETHING IS GOOD\",\n    \"THIS SOMEONE THINKS ABOUT THIS SOMETHING FOR A LONG TIME\",\n    \"LIKE WHEN PEOPLE WANT SOMETHING THAT IS FAR FROM THEM\"\n  ]\n}",
+  "parsed": {
+   "spheres": [
+    "personal relationships",
+    "national identity",
+    "religious belief"
+   ],
+   "explication": [
+    "SOMEONE FEELS SOMETHING",
+    "THIS IS BECAUSE THIS SOMEONE WANTS SOMETHING",
+    "THIS SOMEONE THINKS THAT THIS SOMETHING IS NOT NOW",
+    "THIS SOMEONE THINKS THAT THIS SOMETHING IS GOOD",
+    "THIS SOMEONE THINKS ABOUT THIS SOMETHING FOR A LONG TIME",
+    "LIKE WHEN PEOPLE WANT SOMETHING THAT IS FAR FROM THEM"
+   ]
+  }
+ },
+ {
+  "model": "Dots3",
+  "model_id": "dots-studio/dots-3-note-preview:free",
+  "lang": "he",
+  "iter": 2,
+  "temperature": 0.7,
+  "raw": null,
+  "parsed": null
+ },
+ {
+  "model": "Nemotron3",
+  "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
+  "lang": "ru",
+  "iter": 3,
+  "temperature": 0.7,
+  "raw": "{\n  \"spheres\": [\n    \"межличностные отношения\",\n    \"национальная и этническая принадлежность\",\n    \"духовность и религия\",\n    \"личное благополучие\",\n    \"родительское желание\",\n    \"абстрактные идеалы\",\n    \"психологическая фузия\"\n  ],\n  \"explication\": [\n    \"Someone feels something.\",\n    \"Someone thinks: I NOT HAVE something.\",\n    \"Someone wants: I HAVE something.\",\n    \"Because someone thinks: I NOT HAVE something, someone feels something.\",\n    \"Because someone wants: I HAVE something, someone feels something.\",\n    \"As people feel when people think: I NOT HAVE something.\"\n  ]\n}",
+  "parsed": {
+   "spheres": [
+    "межличностные отношения",
+    "национальная и этническая принадлежность",
+    "духовность и религия",
+    "личное благополучие",
+    "родительское желание",
+    "абстрактные идеалы",
+    "психологическая фузия"
+   ],
+   "explication": [
+    "Someone feels something.",
+    "Someone thinks: I NOT HAVE something.",
+    "Someone wants: I HAVE something.",
+    "Because someone thinks: I NOT HAVE something, someone feels something.",
+    "Because someone wants: I HAVE something, someone feels something.",
+    "As people feel when people think: I NOT HAVE something."
+   ]
+  }
+ },
+ {
+  "model": "Nemotron3",
+  "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
+  "lang": "en",
+  "iter": 3,
+  "temperature": 0.7,
+  "raw": "{\n  \"spheres\": [\n    \"Psychological/emotional needs\",\n    \"National/ethnic belonging and territorial aspiration\",\n    \"Romantic/intimate relationship\",\n    \"Religious/spiritual yearning\",\n    \"Personal fulfillment and inner harmony\",\n    \"Aesthetic/artistic aspiration\",\n    \"Procreative desire\"\n  ],\n  \"explication\": [\n    \"Someone thinks like this: I want this thing, this thing is not mine.\",\n    \"Because this, this someone feels something bad.\",\n    \"Because this, this someone wants this thing.\",\n    \"Like people feel when people think like this.\"\n  ]\n}",
+  "parsed": {
+   "spheres": [
+    "Psychological/emotional needs",
+    "National/ethnic belonging and territorial aspiration",
+    "Romantic/intimate relationship",
+    "Religious/spiritual yearning",
+    "Personal fulfillment and inner harmony",
+    "Aesthetic/artistic aspiration",
+    "Procreative desire"
+   ],
+   "explication": [
+    "Someone thinks like this: I want this thing, this thing is not mine.",
+    "Because this, this someone feels something bad.",
+    "Because this, this someone wants this thing.",
+    "Like people feel when people think like this."
+   ]
+  }
+ },
+ {
+  "model": "Nemotron3",
+  "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
+  "lang": "he",
+  "iter": 3,
+  "temperature": 0.7,
+  "raw": "{\"spheres\": [\"יחסים אישיים\", \"רוחניות\", \"לאום ומולדת\", \"קרבה פיזית\", \"שלווה פנימית\"], \"explication\": [\"מישהו מרגיש משהו רע.\", \"אולי מישהו חושב אותו הדבר: 'אני רצה משהו טוב. זה לא פה'.\", \"בגלל זה מישהו מרגיש משהו רע.\", \"כמו שאנשים מרגישים אם אנשים חושבים אותו הדבר.\"]}",
+  "parsed": {
+   "spheres": [
+    "יחסים אישיים",
+    "רוחניות",
+    "לאום ומולדת",
+    "קרבה פיזית",
+    "שלווה פנימית"
+   ],
+   "explication": [
+    "מישהו מרגיש משהו רע.",
+    "אולי מישהו חושב אותו הדבר: 'אני רצה משהו טוב. זה לא פה'.",
+    "בגלל זה מישהו מרגיש משהו רע.",
+    "כמו שאנשים מרגישים אם אנשים חושבים אותו הדבר."
+   ]
+  }
+ },
+ {
+  "model": "Dots3",
+  "model_id": "dots-studio/dots-3-note-preview:free",
+  "lang": "ru",
+  "iter": 3,
+  "temperature": 0.7,
+  "raw": "\n\n```json\n{\n  \"spheres\": [\n    \"межличностные отношения и привязанность\",\n    \"духовные, религиозные и идеологические стремления\",\n    \"национальные и исторические чаяния\",\n    \"психологические и фундаментальные потребности\"\n  ],\n  \"explication\": [\n    \"Кто-то чувствует что-то.\",\n    \"Иногда кто-то думает так:\",\n    \"«Я хочу кого-то или что-то».\",\n    \"«Этот человек или эта вещь хорошие для меня».\",\n    \"«Это не здесь».\",\n    \"«Я хочу, чтобы это было здесь».\",\n    \"«Я много думаю об этом».\",\n    \"Из-за этого кто-то чувствует что-то.\",\n    \"Так чувствуют люди, когда думают так.\"\n  ]\n}\n```",
+  "parsed": {
+   "spheres": [
+    "межличностные отношения и привязанность",
+    "духовные, религиозные и идеологические стремления",
+    "национальные и исторические чаяния",
+    "психологические и фундаментальные потребности"
+   ],
+   "explication": [
+    "Кто-то чувствует что-то.",
+    "Иногда кто-то думает так:",
+    "«Я хочу кого-то или что-то».",
+    "«Этот человек или эта вещь хорошие для меня».",
+    "«Это не здесь».",
+    "«Я хочу, чтобы это было здесь».",
+    "«Я много думаю об этом».",
+    "Из-за этого кто-то чувствует что-то.",
+    "Так чувствуют люди, когда думают так."
+   ]
+  }
+ },
+ {
+  "model": "Dots3",
+  "model_id": "dots-studio/dots-3-note-preview:free",
+  "lang": "en",
+  "iter": 3,
+  "temperature": 0.7,
+  "raw": "\n\n{\n  \"spheres\": [\n    \"personal emotions and relationships\",\n    \"spiritual and religious desires\",\n    \"national and patriotic longings\",\n    \"psychological and developmental needs\"\n  ],\n  \"explication\": [\n    \"A person feels something bad.\",\n    \"Sometimes this person thinks like this: \\\"I want something good, but it is not here now.\\\"\",\n    \"Because of this thought, the person feels something bad.\",\n    \"This is like when a person wants something very much and thinks it is not there.\"\n  ]\n}",
+  "parsed": {
+   "spheres": [
+    "personal emotions and relationships",
+    "spiritual and religious desires",
+    "national and patriotic longings",
+    "psychological and developmental needs"
+   ],
+   "explication": [
+    "A person feels something bad.",
+    "Sometimes this person thinks like this: \"I want something good, but it is not here now.\"",
+    "Because of this thought, the person feels something bad.",
+    "This is like when a person wants something very much and thinks it is not there."
+   ]
+  }
+ },
+ {
+  "model": "Dots3",
+  "model_id": "dots-studio/dots-3-note-preview:free",
+  "lang": "he",
+  "iter": 3,
+  "temperature": 0.7,
+  "raw": "\n\n{\"spheres\": [\" יχס\", \" אומת\", \" דת\", \" רוח\"], \"explication\": [\"מישהו הFeel Something\", \"someone חשב这样: 'אני רץ Something. Something זה לא פהעכשיו. אני רץ שSomething זה פהעכשיו.'\", \"בגלל זה someone הFeel Something\", \"כmó people הFeel when they חשב这样.\"]}",
+  "parsed": {
+   "spheres": [
+    " יχס",
+    " אומת",
+    " דת",
+    " רוח"
+   ],
+   "explication": [
+    "מישהו הFeel Something",
+    "someone חשב这样: 'אני רץ Something. Something זה לא פהעכשיו. אני רץ שSomething זה פהעכשיו.'",
+    "בגלל זה someone הFeel Something",
+    "כmó people הFeel when they חשב这样."
+   ]
+  }
+ },
+ {
+  "model": "Nemotron3",
+  "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
+  "lang": "ru",
+  "iter": 4,
+  "temperature": 0.7,
+  "raw": "{\"spheres\": [\"межличностные отношения (желание близости, привязанности, любви)\", \"национальная и коллективная идентичность (желание родины, государства, принадлежности)\", \"духовность и religiosity (желание связи с Богом, святостью, истиной)\", \"внутреннее благополучие и душевное равновесие (желание покоя, гармонии, целостности)\", \"родительское желание (желание иметь ребёнка)\", \"сексуальная близость (желание физической близости)\", \"стремление к недостижимому идеалу (желание недостижимого)\"], \"explication\": [\"кто-то чувствует что-то\", \"некоторое время кто-то думает так: я хочу это. у этого кто-то не есть это\", \"потому что этот кто-то очень хочет это, этот кто-то чувствует это\", \"когда этот кто-то чувствует это, это как когда люди думают что у людей не есть это\", \"когда этот кто-то чувствует это, это как когда люди думают что люди очень хотеть это\", \"потому что этот кто-то может делать что-то, после этого у этого кто-то есть это\"]}",
+  "parsed": {
+   "spheres": [
+    "межличностные отношения (желание близости, привязанности, любви)",
+    "национальная и коллективная идентичность (желание родины, государства, принадлежности)",
+    "духовность и religiosity (желание связи с Богом, святостью, истиной)",
+    "внутреннее благополучие и душевное равновесие (желание покоя, гармонии, целостности)",
+    "родительское желание (желание иметь ребёнка)",
+    "сексуальная близость (желание физической близости)",
+    "стремление к недостижимому идеалу (желание недостижимого)"
+   ],
+   "explication": [
+    "кто-то чувствует что-то",
+    "некоторое время кто-то думает так: я хочу это. у этого кто-то не есть это",
+    "потому что этот кто-то очень хочет это, этот кто-то чувствует это",
+    "когда этот кто-то чувствует это, это как когда люди думают что у людей не есть это",
+    "когда этот кто-то чувствует это, это как когда люди думают что люди очень хотеть это",
+    "потому что этот кто-то может делать что-то, после этого у этого кто-то есть это"
+   ]
+  }
+ },
+ {
+  "model": "Nemotron3",
+  "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
+  "lang": "en",
+  "iter": 4,
+  "temperature": 0.7,
+  "raw": "{\n  \"spheres\": [\n    \"personal relationships\",\n    \"national/ethnic longing\",\n    \"spiritual/religious longing\",\n    \"parental longing\",\n    \"existential longing\"\n  ],\n  \"explication\": [\n    \"someone feels something\",\n    \"someone thinks like this: \\\"I want this something, this something BE not mine\\\"\",\n    \"because this, someone feels something bad\",\n    \"someone thinks like this many times\",\n    \"someone feels something bad many times\",\n    \"like people feel when people think like this\"\n  ]\n}",
+  "parsed": {
+   "spheres": [
+    "personal relationships",
+    "national/ethnic longing",
+    "spiritual/religious longing",
+    "parental longing",
+    "existential longing"
+   ],
+   "explication": [
+    "someone feels something",
+    "someone thinks like this: \"I want this something, this something BE not mine\"",
+    "because this, someone feels something bad",
+    "someone thinks like this many times",
+    "someone feels something bad many times",
+    "like people feel when people think like this"
+   ]
+  }
+ },
+ {
+  "model": "Nemotron3",
+  "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
+  "lang": "he",
+  "iter": 4,
+  "temperature": 0.7,
+  "raw": "{\"spheres\": [\"יחסים בין-אישיים\", \"לאום וזהות לאומית\", \"רוחניות ודת\", \"צורך גופני\"], \"explication\": [\"מישהו מרגיש משהו.\", \"אולי מישהו חושב: 'אני רצה משהו שלא נמצא פה'.\", \"בגלל זה מישהו מרגיש משהו רע.\", \"כמו אנשים מרגישים אם אנשים חושבים את זה.\"]}",
+  "parsed": {
+   "spheres": [
+    "יחסים בין-אישיים",
+    "לאום וזהות לאומית",
+    "רוחניות ודת",
+    "צורך גופני"
+   ],
+   "explication": [
+    "מישהו מרגיש משהו.",
+    "אולי מישהו חושב: 'אני רצה משהו שלא נמצא פה'.",
+    "בגלל זה מישהו מרגיש משהו רע.",
+    "כמו אנשים מרגישים אם אנשים חושבים את זה."
+   ]
+  }
+ },
+ {
+  "model": "Dots3",
+  "model_id": "dots-studio/dots-3-note-preview:free",
+  "lang": "ru",
+  "iter": 4,
+  "temperature": 0.7,
+  "raw": "\n\n```json\n{\n  \"spheres\": [\n    \"личные отношения и привязанности\",\n    \"национальные и исторические стремления\",\n    \"религиозные и духовные искания\",\n    \"физические и эмоциональные потребности\",\n    \"философские и психологические состояния\"\n  ],\n  \"explication\": [\n    \"кто-то хочет чего-то\",\n    \"кто-то думает о чем-то\",\n    \"кто-то чувствует что-то из-за этого\",\n    \"кто-то может не иметь этого\",\n    \"кто-то хочет иметь это\",\n    \"кто-то хочет делать это\",\n    \"кто-то хочет быть с кем-то\",\n    \"кто-то хочет быть где-то\",\n    \"кто-то хочет, чтобы было что-то\",\n    \"кто-то хочет, чтобы было не так, как сейчас\",\n    \"кто-то чувствует, что это важно\",\n    \"кто-то чувствует, что это нужно\",\n    \"кто-то чувствует, что без этого нельзя\",\n    \"кто-то думает об этом часто\",\n    \"кто-то думает об этом долго\",\n    \"кто-то хочет этого много\",\n    \"кто-то хочет этого сильнее, чем другого\",\n    \"кто-то хочет этого больше, чем другого\",\n    \"кто-то хочет этого, даже если не может\",\n    \"кто-то хочет этого, даже если это трудно\",\n    \"кто-то хочет этого, даже если это возможно\",\n    \"кто-то хочет этого, даже если это не возможно\",\n    \"кто-то хочет этого, даже если это не легко\",\n    \"кто-то хочет этого, даже если это не просто\",\n    \"кто-то хочет этого, даже если это не сразу\",\n    \"кто-то хочет этого, даже если это не всегда\",\n    \"кто-то хочет этого, даже если это не навсегда\",\n    \"кто-то хочет этого, даже если это не точно\",\n    \"кто-то хочет этого, даже если это неsure\",\n    \"кто-то хочет этого, даже если это не ясно\",\n    \"кто-то хочет этого, даже если это не понятно\",\n    \"кто-то хочет этого, даже если это не очевидно\",\n    \"кто-то хочет этого, даже если это не явно\",\n    \"кто-то хочет этого, даже если это не точно известно\",\n    \"кто-то хочет этого, даже если это не полностью\",\n    \"кто-то хочет этого, даже если это не всегда возможно\",\n    \"кто-то хочет этого, даже если это не всегда нужно\",\n    \"кто-то хочет этого, даже если это не всегда важно\",\n    \"кто-то хочет этого, даже если это не всегда приоритет\",\n    \"кто-то хочет этого, даже если это не всегда главный\",\n    \"кто-то хочет этого, даже если это не всегда первый\",\n    \"кто-то хочет этого, даже если это не всегда основной\",\n    \"кто-то хочет этого, даже если это не всегда центральный\",\n    \"кто-то хочет этого, даже если это не всегда главный фокус\",\n    \"кто-то хочет этого, даже если это не всегда главная забота\",\n    \"кто-то хочет этого, даже если это не всегда главная мысль\",\n    \"кто-то хочет этого, даже если это не всегда главная идея\",\n    \"кто-то хочет этого, даже если это не всегда главная цель\",\n    \"кто-то хочет этого, даже если это не всегда главная задача\",\n    \"кто-то хочет этого, даже если это не всегда главная проблема\",\n    \"кто-то хочет этого, даже если это не всегда главный вопрос\",\n    \"кто-то хочет этого, даже если это не всегда главная тема\",\n    \"кто-то хочет этого, даже если это не всегда главная область\",\n    \"кто-то хочет этого, даже если это не всегда главная сфера\",\n    \"кто-то хочет этого, даже если это не всегда главная сфера жизни\",\n    \"кто-то хочет этого, даже если это не всегда главная сфера интересов\",\n    \"кто-то хочет этого, даже если это не всегда главная сфера забот\",\n    \"кто-то хочет этого, даже если это не всегда главная сфера внимания\",\n    \"кто-то хочет этого, даже если это не всегда главная сфера интересов и забот\",\n    \"кто-то хочет этого, даже если это не всегда главная сфера жизни и интересов\",\n    \"кто-то хочет этого, даже если это не всегда главная сфера жизни и забот\",\n    \"кто-то хочет этого, даже если это не всегда главная сфера жизни и внимания\",\n    \"кто-то хочет этого, даже если это не всегда главная сфера жизни, интересов и забот\",\n    \"кто-то хочет этого, даже если это не всегда главная сфера жизни, интересов, забот и внимания\"\n  ]\n}\n```",
+  "parsed": {
+   "spheres": [
+    "личные отношения и привязанности",
+    "национальные и исторические стремления",
+    "религиозные и духовные искания",
+    "физические и эмоциональные потребности",
+    "философские и психологические состояния"
+   ],
+   "explication": [
+    "кто-то хочет чего-то",
+    "кто-то думает о чем-то",
+    "кто-то чувствует что-то из-за этого",
+    "кто-то может не иметь этого",
+    "кто-то хочет иметь это",
+    "кто-то хочет делать это",
+    "кто-то хочет быть с кем-то",
+    "кто-то хочет быть где-то",
+    "кто-то хочет, чтобы было что-то",
+    "кто-то хочет, чтобы было не так, как сейчас",
+    "кто-то чувствует, что это важно",
+    "кто-то чувствует, что это нужно",
+    "кто-то чувствует, что без этого нельзя",
+    "кто-то думает об этом часто",
+    "кто-то думает об этом долго",
+    "кто-то хочет этого много",
+    "кто-то хочет этого сильнее, чем другого",
+    "кто-то хочет этого больше, чем другого",
+    "кто-то хочет этого, даже если не может",
+    "кто-то хочет этого, даже если это трудно",
+    "кто-то хочет этого, даже если это возможно",
+    "кто-то хочет этого, даже если это не возможно",
+    "кто-то хочет этого, даже если это не легко",
+    "кто-то хочет этого, даже если это не просто",
+    "кто-то хочет этого, даже если это не сразу",
+    "кто-то хочет этого, даже если это не всегда",
+    "кто-то хочет этого, даже если это не навсегда",
+    "кто-то хочет этого, даже если это не точно",
+    "кто-то хочет этого, даже если это неsure",
+    "кто-то хочет этого, даже если это не ясно",
+    "кто-то хочет этого, даже если это не понятно",
+    "кто-то хочет этого, даже если это не очевидно",
+    "кто-то хочет этого, даже если это не явно",
+    "кто-то хочет этого, даже если это не точно известно",
+    "кто-то хочет этого, даже если это не полностью",
+    "кто-то хочет этого, даже если это не всегда возможно",
+    "кто-то хочет этого, даже если это не всегда нужно",
+    "кто-то хочет этого, даже если это не всегда важно",
+    "кто-то хочет этого, даже если это не всегда приоритет",
+    "кто-то хочет этого, даже если это не всегда главный",
+    "кто-то хочет этого, даже если это не всегда первый",
+    "кто-то хочет этого, даже если это не всегда основной",
+    "кто-то хочет этого, даже если это не всегда центральный",
+    "кто-то хочет этого, даже если это не всегда главный фокус",
+    "кто-то хочет этого, даже если это не всегда главная забота",
+    "кто-то хочет этого, даже если это не всегда главная мысль",
+    "кто-то хочет этого, даже если это не всегда главная идея",
+    "кто-то хочет этого, даже если это не всегда главная цель",
+    "кто-то хочет этого, даже если это не всегда главная задача",
+    "кто-то хочет этого, даже если это не всегда главная проблема",
+    "кто-то хочет этого, даже если это не всегда главный вопрос",
+    "кто-то хочет этого, даже если это не всегда главная тема",
+    "кто-то хочет этого, даже если это не всегда главная область",
+    "кто-то хочет этого, даже если это не всегда главная сфера",
+    "кто-то хочет этого, даже если это не всегда главная сфера жизни",
+    "кто-то хочет этого, даже если это не всегда главная сфера интересов",
+    "кто-то хочет этого, даже если это не всегда главная сфера забот",
+    "кто-то хочет этого, даже если это не всегда главная сфера внимания",
+    "кто-то хочет этого, даже если это не всегда главная сфера интересов и забот",
+    "кто-то хочет этого, даже если это не всегда главная сфера жизни и интересов",
+    "кто-то хочет этого, даже если это не всегда главная сфера жизни и забот",
+    "кто-то хочет этого, даже если это не всегда главная сфера жизни и внимания",
+    "кто-то хочет этого, даже если это не всегда главная сфера жизни, интересов и забот",
+    "кто-то хочет этого, даже если это не всегда главная сфера жизни, интересов, забот и внимания"
+   ]
+  }
+ },
+ {
+  "model": "Dots3",
+  "model_id": "dots-studio/dots-3-note-preview:free",
+  "lang": "en",
+  "iter": 4,
+  "temperature": 0.7,
+  "raw": "\n\n{\"spheres\": [\"personal relationships\", \"national identity\", \"spiritual beliefs\", \"existential concerns\"], \"explication\": [\"SOMEONE FEELS SOMETHING.\", \"SOMETIMES THIS SOMEONE THINKS LIKE THIS: 'I WANT SOMETHING GOOD, BUT IT IS NOT HERE NOW, AND I NOT KNOW IF I CAN HAVE IT.'\", \"BECAUSE OF THIS, THIS SOMEONE FEELS SOMETHING BAD.\", \"THIS FEELING CAN LAST FOR A LONG TIME.\", \"THIS IS LIKE WHEN PEOPLE WANT SOMETHING GOOD THAT IS FAR.\"]}",
+  "parsed": {
+   "spheres": [
+    "personal relationships",
+    "national identity",
+    "spiritual beliefs",
+    "existential concerns"
+   ],
+   "explication": [
+    "SOMEONE FEELS SOMETHING.",
+    "SOMETIMES THIS SOMEONE THINKS LIKE THIS: 'I WANT SOMETHING GOOD, BUT IT IS NOT HERE NOW, AND I NOT KNOW IF I CAN HAVE IT.'",
+    "BECAUSE OF THIS, THIS SOMEONE FEELS SOMETHING BAD.",
+    "THIS FEELING CAN LAST FOR A LONG TIME.",
+    "THIS IS LIKE WHEN PEOPLE WANT SOMETHING GOOD THAT IS FAR."
+   ]
+  }
+ },
+ {
+  "model": "Dots3",
+  "model_id": "dots-studio/dots-3-note-preview:free",
+  "lang": "he",
+  "iter": 4,
+  "temperature": 0.7,
+  "raw": "\n\n{\"spheres\": [\"רגשות personal\", \"יחסים personal\", \"זהות לאומית\", \"ה life דתית\", \"psychology\"], \"explication\": [\"Mishehu Margish mashehu ra.\", \"Ze ki Mishehu Chashav kazo: 'Ani Ratz mashehu Tov lihyot kan achshav, aval ze lo kan achshav.'\", \"Kemo Anashim Margishim kaze she'Anashim Chashav kazo.\"]}",
+  "parsed": {
+   "spheres": [
+    "רגשות personal",
+    "יחסים personal",
+    "זהות לאומית",
+    "ה life דתית",
+    "psychology"
+   ],
+   "explication": [
+    "Mishehu Margish mashehu ra.",
+    "Ze ki Mishehu Chashav kazo: 'Ani Ratz mashehu Tov lihyot kan achshav, aval ze lo kan achshav.'",
+    "Kemo Anashim Margishim kaze she'Anashim Chashav kazo."
+   ]
+  }
+ },
+ {
+  "model": "Nemotron3",
+  "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
+  "lang": "ru",
+  "iter": 5,
+  "temperature": 0.7,
+  "raw": "{\"spheres\": [\"межличностные отношения\", \"национальная и культурная идентичность\", \"духовная и религиозная сфера\", \"личное благополучие и душевное состояние\", \"экзистенциальные и метафизические стремления\"], \"explication\": [\"Кто-то чувствует что-то.\", \"Может быть кто-то думает: я хочу это.\", \"Не у меня есть это.\", \"Потому что это, кто-то чувствует что-то плохое.\", \"Так чувствуют люди, когда думают так.\"]}",
+  "parsed": {
+   "spheres": [
+    "межличностные отношения",
+    "национальная и культурная идентичность",
+    "духовная и религиозная сфера",
+    "личное благополучие и душевное состояние",
+    "экзистенциальные и метафизические стремления"
+   ],
+   "explication": [
+    "Кто-то чувствует что-то.",
+    "Может быть кто-то думает: я хочу это.",
+    "Не у меня есть это.",
+    "Потому что это, кто-то чувствует что-то плохое.",
+    "Так чувствуют люди, когда думают так."
+   ]
+  }
+ },
+ {
+  "model": "Nemotron3",
+  "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
+  "lang": "en",
+  "iter": 5,
+  "temperature": 0.7,
+  "raw": "{\n  \"spheres\": [\n    \"personal/emotional longing\",\n    \"national/ethnic longing\",\n    \"spiritual/religious longing\",\n    \"longing for offspring\",\n    \"longing for abstract ideals\",\n    \"longing for unattainable objects\"\n  ],\n  \"explication\": [\n    \"SOMEONE FEELS SOMETHING.\",\n    \"MAYBE SOMEONE THINKS LIKE THIS: I WANT THIS GOOD THING.\",\n    \"MAYBE SOMEONE THINKS LIKE THIS: NOT THIS BE MINE NOW.\",\n    \"BECAUSE THIS, SOMEONE FEELS SOMETHING BAD.\",\n    \"LIKE PEOPLE FEEL WHEN PEOPLE THINK LIKE THIS.\"\n  ]\n}",
+  "parsed": {
+   "spheres": [
+    "personal/emotional longing",
+    "national/ethnic longing",
+    "spiritual/religious longing",
+    "longing for offspring",
+    "longing for abstract ideals",
+    "longing for unattainable objects"
+   ],
+   "explication": [
+    "SOMEONE FEELS SOMETHING.",
+    "MAYBE SOMEONE THINKS LIKE THIS: I WANT THIS GOOD THING.",
+    "MAYBE SOMEONE THINKS LIKE THIS: NOT THIS BE MINE NOW.",
+    "BECAUSE THIS, SOMEONE FEELS SOMETHING BAD.",
+    "LIKE PEOPLE FEEL WHEN PEOPLE THINK LIKE THIS."
+   ]
+  }
+ },
+ {
+  "model": "Nemotron3",
+  "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
+  "lang": "he",
+  "iter": 5,
+  "temperature": 0.7,
+  "raw": "{\"spheres\": [\"יחסים בין אישיים\", \"לאום ומולדת\", \"דת ורוחניות\", \"משפחה וילדים\", \"טיפול נפשי\"], \"explication\": [\"מישהו מרגיש משהו\", \"אולי מישהו חושב: אני רצה זה: יש משהו שלי; לא יש משהו שלי\", \"בגלל זה מישהו מרגיש רע\", \"כמו אנשים מרגישים אם אנשים חושבים זה\"]}",
+  "parsed": {
+   "spheres": [
+    "יחסים בין אישיים",
+    "לאום ומולדת",
+    "דת ורוחניות",
+    "משפחה וילדים",
+    "טיפול נפשי"
+   ],
+   "explication": [
+    "מישהו מרגיש משהו",
+    "אולי מישהו חושב: אני רצה זה: יש משהו שלי; לא יש משהו שלי",
+    "בגלל זה מישהו מרגיש רע",
+    "כמו אנשים מרגישים אם אנשים חושבים זה"
+   ]
+  }
+ },
+ {
+  "model": "Dots3",
+  "model_id": "dots-studio/dots-3-note-preview:free",
+  "lang": "ru",
+  "iter": 5,
+  "temperature": 0.7,
+  "raw": "\n\n```json\n{\n  \"spheres\": [\"личные отношения и интимность\", \"религия и духовность\", \"национальное и социальное стремление\", \"психология и индивидуальные потребности\"],\n  \"explication\": [\n    \"Кто-то чувствует, что хочет чего-то очень много.\",\n    \"Иногда этот человек думает так: «Я хочу этого очень много, но у меня нет этого сейчас».\",\n    \"ПОТОМУ ЧТО этот человек чувствует что-то в теле, как будто тело хочет этого.\",\n    \"Так, как чувствуют люди, когда думают: «Я хочу чего-то очень много, но у меня нет этого сейчас».\"\n  ]\n}\n```",
+  "parsed": {
+   "spheres": [
+    "личные отношения и интимность",
+    "религия и духовность",
+    "национальное и социальное стремление",
+    "психология и индивидуальные потребности"
+   ],
+   "explication": [
+    "Кто-то чувствует, что хочет чего-то очень много.",
+    "Иногда этот человек думает так: «Я хочу этого очень много, но у меня нет этого сейчас».",
+    "ПОТОМУ ЧТО этот человек чувствует что-то в теле, как будто тело хочет этого.",
+    "Так, как чувствуют люди, когда думают: «Я хочу чего-то очень много, но у меня нет этого сейчас»."
+   ]
+  }
+ },
+ {
+  "model": "Dots3",
+  "model_id": "dots-studio/dots-3-note-preview:free",
+  "lang": "en",
+  "iter": 5,
+  "temperature": 0.7,
+  "raw": "\n\n{\n  \"spheres\": [\n    \"personal emotions\",\n    \"national sentiments\",\n    \"religious aspirations\",\n    \"psychological needs\"\n  ],\n  \"explication\": [\n    \"SOMEONE FEELS SOMETHING\",\n    \"A PERSON THINKS LIKE THIS:\",\n    \"“I WANT SOMETHING GOOD”\",\n    \"“BUT THIS SOMETHING IS NOT HERE NOW”\",\n    \"“AND IT WAS NOT HERE FOR A LONG TIME”\",\n    \"BECAUSE OF THIS, THIS PERSON FEELS SOMETHING\",\n    \"LIKE PEOPLE FEEL WHEN THEY THINK LIKE THIS\"\n  ]\n}",
+  "parsed": {
+   "spheres": [
+    "personal emotions",
+    "national sentiments",
+    "religious aspirations",
+    "psychological needs"
+   ],
+   "explication": [
+    "SOMEONE FEELS SOMETHING",
+    "A PERSON THINKS LIKE THIS:",
+    "“I WANT SOMETHING GOOD”",
+    "“BUT THIS SOMETHING IS NOT HERE NOW”",
+    "“AND IT WAS NOT HERE FOR A LONG TIME”",
+    "BECAUSE OF THIS, THIS PERSON FEELS SOMETHING",
+    "LIKE PEOPLE FEEL WHEN THEY THINK LIKE THIS"
+   ]
+  }
+ },
+ {
+  "model": "Dots3",
+  "model_id": "dots-studio/dots-3-note-preview:free",
+  "lang": "he",
+  "iter": 5,
+  "temperature": 0.7,
+  "raw": "\n\n{\"spheres\": [\" רגשות\", \"-charts\", \"dati\"], \"explication\": [\"someone feels something\", \"sometimes a person thinks like this: 'I want something, but it is not here now'\", \"because of this, the person feels something bad\", \"like how people feel when they think like this\"]}",
+  "parsed": {
+   "spheres": [
+    " רגשות",
+    "-charts",
+    "dati"
+   ],
+   "explication": [
+    "someone feels something",
+    "sometimes a person thinks like this: 'I want something, but it is not here now'",
+    "because of this, the person feels something bad",
+    "like how people feel when they think like this"
+   ]
+  }
+ }
+]

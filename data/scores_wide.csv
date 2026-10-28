@@ -1,0 +1,31 @@
+code,model,lang,iter,status,K1,K2,K3,K4,K5,total
+T29,Dots3,en,1,ok,2,1,1,2,2,8
+T30,Dots3,en,2,ok,2,1,1,2,2,8
+T19,Dots3,en,3,ok,1,2,2,2,2,9
+T12,Dots3,en,4,ok,0,2,1,2,2,7
+T06,Dots3,en,5,ok,1,1,1,2,2,7
+T02,Dots3,he,1,не тот язык / смесь,0,0,0,0,0,0
+T22,Dots3,he,2,отказ,0,0,0,0,0,0
+T24,Dots3,he,3,не тот язык / смесь,0,0,0,1,1,2
+T15,Dots3,he,4,не тот язык / смесь,0,1,0,1,1,3
+T04,Dots3,he,5,не тот язык / смесь,0,1,0,1,2,4
+T23,Dots3,ru,1,ok,2,1,0,1,1,5
+T07,Dots3,ru,2,зацикливание,0,2,2,2,2,8
+T03,Dots3,ru,3,ok,1,2,1,2,2,8
+T01,Dots3,ru,4,зацикливание,0,1,2,2,2,7
+T11,Dots3,ru,5,ok,1,1,1,2,2,7
+T26,Nemotron3,en,1,ok,1,1,2,2,2,8
+T05,Nemotron3,en,2,ok,1,2,2,2,2,9
+T09,Nemotron3,en,3,ok,2,1,0,2,2,7
+T17,Nemotron3,en,4,ok,1,2,1,2,2,8
+T20,Nemotron3,en,5,ok,1,1,1,2,2,7
+T25,Nemotron3,he,1,ok,1,1,0,2,2,6
+T10,Nemotron3,he,2,ok,1,0,0,2,2,5
+T14,Nemotron3,he,3,ok,1,2,1,2,2,8
+T27,Nemotron3,he,4,ok,1,1,0,2,2,6
+T13,Nemotron3,he,5,ok,1,0,0,2,2,5
+T08,Nemotron3,ru,1,ok,2,1,1,2,2,8
+T18,Nemotron3,ru,2,ok,1,1,0,2,2,6
+T28,Nemotron3,ru,3,не тот язык / смесь,0,1,0,2,1,4
+T21,Nemotron3,ru,4,ok,1,2,2,2,1,8
+T16,Nemotron3,ru,5,ok,1,1,0,2,2,6
